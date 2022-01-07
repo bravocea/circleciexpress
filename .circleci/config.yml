@@ -5,5 +5,4 @@ workflows:
 node-tests:
 jobs:
 - node/test
-          command: ssh -o "StrictHostKeyChecking no" root@167.71.166.254"cd ~/circleciexpress; git pull; npm install; npm start &"
   
